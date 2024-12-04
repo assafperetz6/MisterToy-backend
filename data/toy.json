@@ -1,0 +1,138 @@
+[
+  {
+    "_id": "t101",
+    "name": "Talking Doll",
+    "price": 123,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "_id": "t103",
+    "name": "Remote Controlled Car",
+    "price": 250,
+    "labels": [
+      "On Wheels",
+      "Outdoor",
+      "Battery Powered"
+    ],
+    "createdAt": 1631035672011,
+    "inStock": true
+  },
+  {
+    "_id": "t104",
+    "name": "Remote Controlled Bike",
+    "price": 175,
+    "labels": [
+      "On Wheels",
+      "Outdoor",
+      "Battery Powered"
+    ],
+    "createdAt": 16312456211,
+    "inStock": true
+  },
+  {
+    "_id": "t105",
+    "name": "Lego Building Set",
+    "price": 300,
+    "labels": [
+      "Educational",
+      "Creative",
+      "Indoors"
+    ],
+    "createdAt": 1632035672011,
+    "inStock": true
+  },
+  {
+    "_id": "t106",
+    "name": "Action Figure",
+    "price": 120,
+    "labels": [
+      "Collectible",
+      "Indoors",
+      "Figurine"
+    ],
+    "createdAt": 1633035672011,
+    "inStock": false
+  },
+  {
+    "_id": "t107",
+    "name": "Puzzle Game",
+    "price": 150,
+    "labels": [
+      "Educational",
+      "Puzzle",
+      "Indoors"
+    ],
+    "createdAt": 1634035672011,
+    "inStock": true
+  },
+  {
+    "_id": "t108",
+    "name": "Stuffed Animal",
+    "price": 80,
+    "labels": [
+      "Soft Toy",
+      "Indoors",
+      "Plush"
+    ],
+    "createdAt": 1635035672011,
+    "inStock": true
+  },
+  {
+    "_id": "t109",
+    "name": "Electric Train Set",
+    "price": 400,
+    "labels": [
+      "On Tracks",
+      "Indoors",
+      "Battery Powered"
+    ],
+    "createdAt": 1636035672011,
+    "inStock": false
+  },
+  {
+    "name": "toy-NXM",
+    "price": 123,
+    "inStock": true,
+    "_id": "a2Svi",
+    "owner": {
+      "_id": "JtVI4",
+      "fullname": "assaf peretz"
+    }
+  },
+  {
+    "_id": "GP0QG",
+    "name": "Jigsaw Puzzle",
+    "price": 82,
+    "inStock": false,
+    "owner": {
+      "_id": "JtVI4",
+      "fullname": "assaf peretz"
+    }
+  },
+  {
+    "_id": "uZcuJ",
+    "name": "Jigsaw Puzzle",
+    "price": 230,
+    "inStock": false,
+    "owner": {
+      "_id": "JtVI4",
+      "fullname": "assaf peretz"
+    }
+  },
+  {
+    "_id": "zsdze",
+    "name": "Talking Doll",
+    "price": 123,
+    "inStock": true,
+    "owner": {
+      "_id": "JtVI4",
+      "fullname": "assaf peretz"
+    }
+  }
+]

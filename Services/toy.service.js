@@ -17,8 +17,8 @@ function query(filterBy = { txt: '' }) {
     const regex = new RegExp(filterBy.txt, 'i')
     var toysToReturn = toys.filter(toy => regex.test(toy.name))
 
-    if (filterBy.isStock) {
-        toysToReturn = toysToReturn.filter(toy => toy.inStock === filterBy.isStock)
+    if (filterBy.isStock !== undefined) {
+        toysToReturn = toysToReturn.filter(toy => toy.inStock === JSON.parse(filterBy.isStock))
     }
     if (filterBy.maxPrice) {
         toysToReturn = toysToReturn.filter(toy => toy.price <= filterBy.maxPrice)
@@ -41,10 +41,10 @@ function remove(toyId, loggedinUser) {
     if (idx === -1) return Promise.reject('No Such Toy')
 
     const toy = toys[idx]
-    if (!loggedinUser.isAdmin &&
-        toy.owner._id !== loggedinUser._id) {
-        return Promise.reject('Not your toy')
-    }
+    // if (!loggedinUser.isAdmin &&
+    //     toy.owner._id !== loggedinUser._id) {
+    //     return Promise.reject('Not your toy')
+    // }
     toys.splice(idx, 1)
     return _saveToysToFile()
 }
@@ -56,8 +56,8 @@ function save(toy, loggedinUser) {
             toyToUpdate.owner._id !== loggedinUser._id) {
             return Promise.reject('Not your toy')
         }
-        toyToUpdate.vendor = toy.vendor
-        toyToUpdate.speed = toy.speed
+        toyToUpdate.name = toy.name
+        toyToUpdate.inStock = toy.inStock
         toyToUpdate.price = toy.price
         toy = toyToUpdate
     } else {

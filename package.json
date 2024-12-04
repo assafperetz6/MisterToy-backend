@@ -8,6 +8,7 @@
     "dev": "set PORT=3030&nodemon --ignore \"./data\" server.js",
     "dev:mac": "export PORT=3030 && nodemon --ignore \"./data\" server.js"
   },
+  "type": "module",
   "keywords": [],
   "author": "Assaf peretz",
   "license": "ISC",
