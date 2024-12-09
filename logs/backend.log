@@ -18,3 +18,115 @@
 4.12.2024, 16:38:10 - INFO - Server listening on port http://127.0.0.1:3030/
 4.12.2024, 16:38:55 - INFO - Server listening on port http://127.0.0.1:3030/
 4.12.2024, 16:39:06 - INFO - Server listening on port http://127.0.0.1:3030/
+8.12.2024, 10:58:29 - INFO - Server listening on port http://127.0.0.1:3030/
+8.12.2024, 11:40:47 - INFO - Server listening on port http://127.0.0.1:3030/
+8.12.2024, 11:40:47 - INFO - Server listening on port http://127.0.0.1:3030/
+8.12.2024, 11:40:55 - INFO - Server listening on port http://127.0.0.1:3030/
+8.12.2024, 11:53:12 - INFO - Server listening on port http://127.0.0.1:3030/
+8.12.2024, 11:53:13 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 12:57:29 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 12:58:15 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 12:58:58 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 12:59:14 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 12:59:38 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:00:44 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:00:47 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:00:58 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:01:31 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:02:46 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:03:57 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:04:22 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:04:26 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:04:44 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:05:31 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:05:52 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:06:18 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:06:31 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:06:34 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:07:42 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:07:55 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:08:39 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:10:31 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:10:37 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:10:51 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:15:59 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:16:42 - ERROR - Cannot write to toys file | TypeError [ERR_INVALID_ARG_TYPE]: The "cb" argument must be of type function. Received undefined
+9.12.2024, 13:16:42 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 13:16:59 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:17:10 - ERROR - Cannot remove toy | No Such Toy
+9.12.2024, 13:17:28 - ERROR - Cannot write to toys file | TypeError [ERR_INVALID_ARG_TYPE]: The "cb" argument must be of type function. Received undefined
+9.12.2024, 13:17:36 - ERROR - Cannot write to toys file | TypeError [ERR_INVALID_ARG_TYPE]: The "cb" argument must be of type function. Received undefined
+9.12.2024, 13:17:41 - ERROR - Cannot write to toys file | TypeError [ERR_INVALID_ARG_TYPE]: The "cb" argument must be of type function. Received undefined
+9.12.2024, 13:17:41 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 13:17:56 - ERROR - Cannot write to toys file | TypeError [ERR_INVALID_ARG_TYPE]: The "cb" argument must be of type function. Received undefined
+9.12.2024, 13:17:56 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 13:18:30 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:19:06 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:21:45 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:22:46 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:22:54 - ERROR - Cannot write to toys file | ReferenceError: err is not defined
+9.12.2024, 13:22:54 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 13:23:18 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:23:30 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:23:36 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:23:59 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 13:25:04 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:25:06 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:25:43 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 13:25:56 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 13:26:36 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:35:22 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:35:41 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:36:03 - DEBUG - {"name":"Remote Controlled Car","price":25,"inStock":true} | {"_id":"JtVI4","fullname":"assaf peretz","score":10000}
+9.12.2024, 15:36:03 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 15:40:14 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:40:31 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:40:33 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:44:53 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:44:56 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:45:08 - DEBUG - {"name":"Remote Controlled Car","price":90,"inStock":true}
+9.12.2024, 15:45:08 - DEBUG - {"name":"Remote Controlled Car","price":90,"inStock":true} | {"_id":"JtVI4","fullname":"assaf peretz","score":10000}
+9.12.2024, 15:45:08 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 15:46:10 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:46:20 - DEBUG - {"id":"t103"}
+9.12.2024, 15:46:20 - DEBUG - {"name":"Remote Controlled Car","price":34,"inStock":true} | {"_id":"JtVI4","fullname":"assaf peretz","score":10000}
+9.12.2024, 15:46:20 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 15:48:00 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:48:09 - DEBUG - {"id":"t103"}
+9.12.2024, 15:48:09 - DEBUG - {"name":"Remote Controlled Car","price":25,"inStock":true} | {"_id":"JtVI4","fullname":"assaf peretz","score":10000}
+9.12.2024, 15:48:09 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 15:50:19 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:51:46 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:51:54 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:52:04 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 15:53:08 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:53:14 - DEBUG - FROM LINE 54 IN TOY SERVICE: | 
+9.12.2024, 15:53:14 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 15:54:01 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:54:19 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:54:28 - DEBUG - {"name":"Remote Controlled Car","price":321,"inStock":true}
+9.12.2024, 15:54:28 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 15:55:11 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:56:07 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:56:16 - DEBUG - {"name":"Remote Controlled Car","price":252,"inStock":true}
+9.12.2024, 15:56:16 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 15:56:49 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:56:50 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:57:04 - DEBUG - 
+9.12.2024, 15:57:04 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 15:57:30 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:57:37 - DEBUG - 
+9.12.2024, 15:57:37 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 15:57:57 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 15:59:21 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 16:02:16 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 16:04:04 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 16:04:21 - ERROR - Cannot save toy | TypeError: Cannot read properties of undefined (reading '_id')
+9.12.2024, 16:04:30 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 16:04:41 - ERROR - Cannot save toy | TypeError: Cannot read properties of undefined (reading '_id')
+9.12.2024, 16:05:09 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 16:05:20 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 16:05:32 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 16:06:03 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
+9.12.2024, 16:07:44 - INFO - Server listening on port http://127.0.0.1:3030/
+9.12.2024, 16:08:29 - INFO - Server listening on port http://127.0.0.1:3030/

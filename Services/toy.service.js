@@ -1,5 +1,5 @@
 
-import fs from 'fs'
+import { promises as fs} from 'fs'
 import { utilService } from './util.service.js'
 import { loggerService } from './logger.service.js'
 
@@ -49,7 +49,7 @@ function remove(toyId, loggedinUser) {
     return _saveToysToFile()
 }
 
-function save(toy, loggedinUser) {
+async function save(toy, loggedinUser) {
     if (toy._id) {
         const toyToUpdate = toys.find(currToy => currToy._id === toy._id)
         if (!loggedinUser.isAdmin &&
@@ -66,19 +66,18 @@ function save(toy, loggedinUser) {
         toys.push(toy)
     }
     delete toy.owner.score
-    return _saveToysToFile().then(() => toy)
+
+    await _saveToysToFile()
+    return toy
 }
 
 
-function _saveToysToFile() {
-    return new Promise((resolve, reject) => {
+async function _saveToysToFile() {
+    try {
         const data = JSON.stringify(toys, null, 2)
-        fs.writeFile('data/toy.json', data, (err) => {
-            if (err) {
-                loggerService.error('Cannot write to toys file', err)
-                return reject(err)
-            }
-            resolve()
-        })
-    })
+        fs.writeFile('data/toy.json', data)
+    } catch (err) {
+        loggerService.error('Cannot write to toys file', err)
+        return err
+    }
 }
