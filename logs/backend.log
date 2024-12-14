@@ -130,3 +130,5 @@
 9.12.2024, 16:06:03 - ERROR - Cannot save toy | ReferenceError: savedToy is not defined
 9.12.2024, 16:07:44 - INFO - Server listening on port http://127.0.0.1:3030/
 9.12.2024, 16:08:29 - INFO - Server listening on port http://127.0.0.1:3030/
+11.12.2024, 19:20:20 - INFO - Server listening on port http://127.0.0.1:3030/
+12.12.2024, 17:50:09 - INFO - Server listening on port http://127.0.0.1:3030/

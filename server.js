@@ -39,7 +39,7 @@ app.get('/api/toy', async (req, res) => {
     try {
         const toys = await toyService.query(filterBy)
         console.log(toys)
-        return res.send(toys)
+        res.send(toys)
     } catch (err) {
         loggerService.error('Cannot get toys', err)
         res.status(400).send('Cannot get toys')

@@ -35,7 +35,7 @@ async function ajax(endpoint, method = 'GET', data = null) {
 
     try {
         const res = await axios(options)
-        return res.data
+        res.data
     } catch (err) {
         console.log(`Had Issues ${method}ing to the backend, endpoint: ${endpoint}, with data: `, data)
         console.dir(err)
