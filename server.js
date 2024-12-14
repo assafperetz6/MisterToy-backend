@@ -1,29 +1,37 @@
-import path from 'path'
+import path, { dirname } from 'path'
+import { fileURLToPath } from 'url'
 import express from 'express'
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
 
-import { toyService } from './Services/toy.service.js'
+import { toyService } from './api/toy/toy.service.js'
 import { userService } from './Services/user.service.js'
 import { loggerService } from './Services/logger.service.js'
 
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 const app = express()
 
-app.use(express.static('public'))
 app.use(cookieParser())
 app.use(express.json())
+app.use(express.static('public'))
 
-const corsOptions = {
-    origin: [
-        'http://localhost:5173',
-        'http://127.0.0.1:5173',
-        'http://localhost:5174',
-        'http://127.0.0.1:5174'
-    ],
-    credentials: true,
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static(path.resolve(__dirname, 'public')))
+    console.log('__dirname: ', __dirname)
+} else {
+    const corsOptions = {
+        origin: [
+            'http://localhost:5173',
+            'http://127.0.0.1:5173',
+            'http://localhost:5174',
+            'http://127.0.0.1:5174'
+        ],
+        credentials: true,
+    }
+    app.use(cors(corsOptions))
 }
-app.use(cors(corsOptions))
 
 // TOY API
 
