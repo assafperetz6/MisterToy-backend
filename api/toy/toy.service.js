@@ -1,8 +1,8 @@
 import { ObjectId } from 'mongodb' 
 
 import { dbService } from '../../services/db.service.js'
-import { utilService } from '../../Services/util.service.js'
-import { loggerService } from '../../Services/logger.service.js'
+import { utilService } from '../../services/util.service.js'
+import { loggerService } from '../../services/logger.service.js'
 
 export const toyService = {
     query,
@@ -14,13 +14,14 @@ export const toyService = {
     removeToyMsg
 }
 
-const PAGE_SIZE = 5
-const toys = utilService.readJsonFile('data/toy.json')
+// const PAGE_SIZE = 5
+// const toys = utilService.readJsonFile('data/toy.json')
 
-async function query(filterBy = { txt: '' }) {
+async function query(filterBy = { txt: '', maxPrice: Infinity, isStock: '', labels: [] }) {
     try {
         const criteria = {
-            vendor: { $regex: filterBy.txt, $options: 'i' }
+            name: { $regex: filterBy.txt, $options: 'i' },
+            price: { $lte: filterBy.maxPrice? filterBy.maxPrice : Infinity}
         }
         const collection = await dbService.getCollection('toy')
         var toys = await collection.find(criteria).toArray()
@@ -49,7 +50,7 @@ async function remove(toyId) {
 		const { deletedCount } = await collection.deleteOne({ _id: ObjectId.createFromHexString(toyId) })
         return deletedCount
 	} catch (err) {
-		logger.error(`cannot remove toy ${toyId}`, err)
+		loggerService.error(`cannot remove toy ${toyId}`, err)
 		throw err
 	}
 }

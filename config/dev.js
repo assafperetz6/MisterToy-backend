@@ -1,4 +1,4 @@
 export default {
-    dbURL: 'mongodb://127.0.0.1:27017',
-    dbName: 'tester_db',
+    dbURL: 'mongodb+srv://assafperetz6:WUU9QAA75Pe3zN3D@cluster0.9hcy5.mongodb.net/',
+    dbName: 'toyDB',
 }

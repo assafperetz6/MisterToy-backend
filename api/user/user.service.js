@@ -1,103 +1,119 @@
-import fs from 'fs'
-import Cryptr from 'cryptr'
+import { dbService } from '../../services/db.service.js'
 
-import { utilService } from './util.service.js'
-
-const cryptr = new Cryptr(process.env.SECRET1 || 'secret-puk-1234')
-const users = utilService.readJsonFile('data/user.json')
+import { ObjectId } from 'mongodb'
+import { loggerService } from '../../services/logger.service.js'
 
 export const userService = {
     query,
     getById,
+    getByUsername,
     remove,
-    save,
-
-    checkLogin,
-    getLoginToken,
-    validateToken,
+    update,
+    add
 }
 
-function query() {
-    const usersToReturn = users.map(user => ({ _id: user._id, fullname: user.fullname }))
-    return Promise.resolve(usersToReturn)
-}
+async function query(filterBy = {}) {
+    const criteria = _buildCriteria(filterBy)
 
-function getById(userId) {
-    var user = users.find(user => user._id === userId)
-    if (!user) return Promise.reject('User not found!')
-
-    user = {
-        _id: user._id,
-        username: user.username,
-        fullname: user.fullname,
-        score: user.score
-    }
-
-    return Promise.resolve(user)
-}
-
-function remove(userId) {
-    users = users.filter(user => user._id !== userId)
-    return _saveUsersToFile()
-}
-
-
-function save(user) {
-    let userToUpdate = user
-    if (user._id) {
-        userToUpdate = users.find(_user => user._id === _user._id)
-        userToUpdate.score = user.score
-    } else {
-        userToUpdate._id = utilService.makeId()
-        users.push(userToUpdate)
-    }
-    const miniUser = {
-        _id: userToUpdate._id,
-        fullname: userToUpdate.fullname,
-        score: userToUpdate.score,
-        isAdmin: user.isAdmin,
-
-    }
-    return _saveUsersToFile().then(() => miniUser)
-}
-
-function checkLogin({ username, password }) {
-    // You might want to remove the password validation for dev
-    var user = users.find(user => user.username === username && user.password === password)
-
-    if (user) {
-        user = {
-            _id: user._id,
-            fullname: user.fullname,
-            isAdmin: user.isAdmin,
-            score: user.score
-        }
-    }
-    return Promise.resolve(user)
-}
-
-function getLoginToken(user) {
-    const str = JSON.stringify(user)
-    const encryptedStr = cryptr.encrypt(str)
-    return encryptedStr
-}
-
-function validateToken(token) {
-    if (!token) return null
-
-    const str = cryptr.decrypt(token)
-    const user = JSON.parse(str)
-    return user
-}
-
-function _saveUsersToFile() {
-    return new Promise((resolve, reject) => {
-        const usersStr = JSON.stringify(users, null, 2)
-        fs.writeFile('data/user.json', usersStr, err => {
-            if (err) {
-                return console.log(err)
-            }
-            resolve()
+    try {
+        const collection = await dbService.getCollection('user')
+        var users = await collection.find(criteria).sort({ nickname: -1 }).toArray()
+        users = users.map(user => {
+            delete user.password
+            user.createdAt = user._id.getTimestamp()
+			return user
         })
-    })
+        return users
+    } catch (err) {
+        loggerService.error('cannot find users', err)
+		throw err
+    }
+}
+
+async function getById(userId) {
+	try {
+		const collection = await dbService.getCollection('user')
+		const user = await collection.findOne({ _id: ObjectId.createFromHexString(userId) })
+		delete user.password
+		return user
+	} catch (err) {
+		loggerService.error(`while finding user ${userId}`, err)
+		throw err
+	}
+}
+async function getByUsername(username) {
+	try {
+		const collection = await dbService.getCollection('user')
+		const user = await collection.findOne({ username })
+		return user
+	} catch (err) {
+		loggerService.error(`while finding user ${username}`, err)
+		throw err
+	}
+}
+
+async function remove(userId) {
+	try {
+		const collection = await dbService.getCollection('user')
+		await collection.deleteOne({ _id: ObjectId.createFromHexString(userId) })
+	} catch (err) {
+		loggerService.error(`cannot remove user ${userId}`, err)
+		throw err
+	}
+}
+
+async function update(user) {
+	try {
+		// peek only updatable fields!
+		const userToSave = {
+			_id: ObjectId.createFromHexString(user._id),
+			username: user.username,
+			fullname: user.fullname,
+			score: user.score,
+		}
+		const collection = await dbService.getCollection('user')
+		await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
+		return userToSave
+	} catch (err) {
+		loggerService.error(`cannot update user ${user._id}`, err)
+		throw err
+	}
+}
+
+async function add(user) {
+	try {
+		// Validate that there are no such user:
+		const existUser = await getByUsername(user.username)
+		if (existUser) throw new Error('Username taken')
+
+		// peek only updatable fields!
+		const userToAdd = {
+			username: user.username,
+			password: user.password,
+			fullname: user.fullname,
+			score: user.score || 1000,
+		}
+		const collection = await dbService.getCollection('user')
+		await collection.insertOne(userToAdd)
+		return userToAdd
+	} catch (err) {
+		loggerService.error('cannot insert user', err)
+		throw err
+	}
+}
+
+function _buildCriteria(filterBy) {
+    const criteria = {}
+
+    if (filterBy.txt) {
+        const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
+        criteria.$or = [
+            { username: txtCriteria },
+            { fullname: txtCriteria }
+        ]
+    }
+    if (filterBy.minBalance) {
+        criteria.balance = { $gte: filterBy.minBalance }
+    }
+    return criteria
 }
