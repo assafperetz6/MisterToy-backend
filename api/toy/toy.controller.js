@@ -5,8 +5,15 @@ import { loggerService } from "../../services/logger.service.js"
 export async function getToys(req, res) {
     try {
         const filterBy = {
-            txt: req.query.txt || ''
+            txt: req.query.txt || '',
+            maxPrice: +req.query.maxPrice || Infinity,
+            inStock: req.query.inStock || undefined,
+            labels: req.query.labels || []
         }
+
+        console.log('filterBy:', filterBy)
+        
+
         const toys = await toyService.query(filterBy)
         res.json(toys)
     } catch (err) {

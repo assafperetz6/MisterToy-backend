@@ -17,12 +17,10 @@ export const toyService = {
 // const PAGE_SIZE = 5
 // const toys = utilService.readJsonFile('data/toy.json')
 
-async function query(filterBy = { txt: '', maxPrice: Infinity, isStock: '', labels: [] }) {
+async function query(filterBy = { txt: '' }) {
     try {
-        const criteria = {
-            name: { $regex: filterBy.txt, $options: 'i' },
-            price: { $lte: filterBy.maxPrice? filterBy.maxPrice : Infinity}
-        }
+        const criteria = _buildCriteria(filterBy)
+
         const collection = await dbService.getCollection('toy')
         var toys = await collection.find(criteria).toArray()
         return toys
@@ -104,4 +102,23 @@ async function removeToyMsg(toyId, msgId) {
 		logger.error(`cannot add toy msg ${toyId}`, err)
 		throw err
 	}
+}
+
+function _buildCriteria(filterBy) {
+    const criteria = {}
+
+    if (filterBy.txt) {
+        criteria.name = { $regex: filterBy.txt, $options: 'i' }
+    }
+    if (filterBy.maxPrice) {
+        criteria.price = { $lte: filterBy.maxPrice }
+    }
+    if (filterBy.inStock) {
+        criteria.inStock = JSON.parse(filterBy.inStock)
+    }
+    if (filterBy.labels && filterBy.labels.length > 0) {
+        criteria.labels = { $all: filterBy.labels }
+    }
+
+    return criteria
 }

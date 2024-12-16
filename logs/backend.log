@@ -523,3 +523,282 @@
 14.12.2024, 13:56:21 - INFO - Req was made | /
 14.12.2024, 13:56:24 - INFO - Req was made | /
 14.12.2024, 13:56:26 - INFO - Req was made | /
+14.12.2024, 13:57:16 - INFO - server.js loaded...
+14.12.2024, 13:57:16 - INFO - Server listening on port http://127.0.0.1:3030/
+14.12.2024, 13:57:23 - INFO - server.js loaded...
+14.12.2024, 13:57:23 - INFO - Server listening on port http://127.0.0.1:3030/
+14.12.2024, 13:57:47 - INFO - server.js loaded...
+14.12.2024, 13:57:47 - INFO - Server listening on port http://127.0.0.1:3030/
+14.12.2024, 13:57:53 - INFO - Req was made | /
+14.12.2024, 13:57:55 - INFO - Req was made | /
+16.12.2024, 14:55:28 - INFO - server.js loaded...
+16.12.2024, 14:55:28 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 14:55:37 - INFO - Req was made | /
+16.12.2024, 14:55:39 - INFO - Req was made | /
+16.12.2024, 14:56:06 - INFO - Req was made | /
+16.12.2024, 14:56:07 - INFO - Req was made | /
+16.12.2024, 14:56:07 - INFO - Req was made | /
+16.12.2024, 14:56:08 - INFO - Req was made | /
+16.12.2024, 14:56:09 - INFO - Req was made | /
+16.12.2024, 14:56:12 - INFO - Req was made | /
+16.12.2024, 14:56:13 - INFO - Req was made | /
+16.12.2024, 14:56:14 - INFO - Req was made | /
+16.12.2024, 14:56:15 - INFO - Req was made | /
+16.12.2024, 14:56:44 - INFO - server.js loaded...
+16.12.2024, 14:56:44 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:01:05 - INFO - server.js loaded...
+16.12.2024, 15:01:05 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:04:29 - INFO - server.js loaded...
+16.12.2024, 15:04:29 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:04:29 - INFO - Req was made | /
+16.12.2024, 15:04:31 - INFO - Req was made | /
+16.12.2024, 15:04:34 - INFO - Req was made | /
+16.12.2024, 15:04:36 - INFO - Req was made | /
+16.12.2024, 15:07:34 - INFO - server.js loaded...
+16.12.2024, 15:07:34 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:08:54 - INFO - server.js loaded...
+16.12.2024, 15:08:54 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:09:28 - INFO - server.js loaded...
+16.12.2024, 15:09:28 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:09:30 - INFO - Req was made | /
+16.12.2024, 15:09:32 - INFO - Req was made | /
+16.12.2024, 15:09:34 - INFO - Req was made | /
+16.12.2024, 15:09:36 - INFO - Req was made | /
+16.12.2024, 15:09:40 - INFO - Req was made | /
+16.12.2024, 15:09:45 - INFO - Req was made | /
+16.12.2024, 15:10:37 - INFO - server.js loaded...
+16.12.2024, 15:10:37 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:10:41 - INFO - Req was made | /
+16.12.2024, 15:10:41 - INFO - Req was made | /
+16.12.2024, 15:11:09 - INFO - server.js loaded...
+16.12.2024, 15:11:09 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:11:17 - INFO - server.js loaded...
+16.12.2024, 15:11:17 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:11:23 - INFO - Req was made | /
+16.12.2024, 15:11:23 - DEBUG - {"txt":"","maxPrice":"202"}
+16.12.2024, 15:11:34 - INFO - server.js loaded...
+16.12.2024, 15:11:34 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:11:39 - INFO - Req was made | /
+16.12.2024, 15:11:39 - DEBUG - {"txt":"","maxPrice":"200"}
+16.12.2024, 15:12:11 - INFO - Req was made | /
+16.12.2024, 15:12:11 - DEBUG - {"txt":"","maxPrice":"0"}
+16.12.2024, 15:12:25 - INFO - Req was made | /
+16.12.2024, 15:12:25 - DEBUG - {"txt":"a","maxPrice":"0"}
+16.12.2024, 15:13:15 - INFO - server.js loaded...
+16.12.2024, 15:13:15 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:13:24 - INFO - server.js loaded...
+16.12.2024, 15:13:25 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:13:28 - INFO - Req was made | /
+16.12.2024, 15:13:40 - INFO - server.js loaded...
+16.12.2024, 15:13:40 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:13:42 - INFO - Req was made | /
+16.12.2024, 15:13:58 - INFO - server.js loaded...
+16.12.2024, 15:13:58 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:14:01 - INFO - Req was made | /
+16.12.2024, 15:14:08 - INFO - Req was made | /
+16.12.2024, 15:14:18 - INFO - Req was made | /
+16.12.2024, 15:14:34 - INFO - server.js loaded...
+16.12.2024, 15:14:34 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:14:46 - INFO - server.js loaded...
+16.12.2024, 15:14:46 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:14:48 - INFO - Req was made | /
+16.12.2024, 15:15:38 - INFO - server.js loaded...
+16.12.2024, 15:15:38 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:15:46 - INFO - server.js loaded...
+16.12.2024, 15:15:46 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 15:15:49 - INFO - Req was made | /
+16.12.2024, 15:15:55 - INFO - Req was made | /
+16.12.2024, 15:57:54 - INFO - server.js loaded...
+16.12.2024, 15:57:54 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:09:27 - INFO - server.js loaded...
+16.12.2024, 16:09:27 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:41:25 - INFO - Req was made | /
+16.12.2024, 16:41:45 - INFO - Req was made | /
+16.12.2024, 16:41:49 - INFO - Req was made | /
+16.12.2024, 16:41:55 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:41:55 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:41:55 - ERROR - cannot find toys | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:41:55 - ERROR - Failed to get toys | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:10 - INFO - Req was made | /
+16.12.2024, 16:42:15 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:15 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:15 - ERROR - Failed to get toys | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:15 - ERROR - cannot find toys | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:19 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:19 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:19 - ERROR - cannot find toys | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:19 - ERROR - Failed to get toys | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:40 - ERROR - Failed to get Mongo collection | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:40 - ERROR - Cannot Connect to DB | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:40 - ERROR - cannot find toys | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:40 - ERROR - Failed to get toys | MongoServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+16.12.2024, 16:42:48 - INFO - server.js loaded...
+16.12.2024, 16:42:48 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:42:55 - INFO - server.js loaded...
+16.12.2024, 16:42:55 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:42:58 - INFO - Req was made | /
+16.12.2024, 16:42:59 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed
+16.12.2024, 16:42:59 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed
+16.12.2024, 16:42:59 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed
+16.12.2024, 16:42:59 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed
+16.12.2024, 16:42:59 - INFO - Req was made | /
+16.12.2024, 16:43:01 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : authentication failed
+16.12.2024, 16:43:01 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : authentication failed
+16.12.2024, 16:43:01 - ERROR - cannot find toys | MongoServerError: bad auth : authentication failed
+16.12.2024, 16:43:01 - ERROR - Failed to get toys | MongoServerError: bad auth : authentication failed
+16.12.2024, 16:45:32 - INFO - server.js loaded...
+16.12.2024, 16:45:32 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:45:38 - INFO - server.js loaded...
+16.12.2024, 16:45:38 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:45:44 - INFO - Req was made | /
+16.12.2024, 16:45:46 - INFO - Req was made | /
+16.12.2024, 16:45:48 - INFO - Req was made | /
+16.12.2024, 16:45:49 - INFO - Req was made | /
+16.12.2024, 16:45:55 - INFO - Req was made | /
+16.12.2024, 16:45:56 - INFO - Req was made | /
+16.12.2024, 16:46:42 - INFO - server.js loaded...
+16.12.2024, 16:46:42 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:47:08 - INFO - server.js loaded...
+16.12.2024, 16:47:08 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:47:42 - INFO - server.js loaded...
+16.12.2024, 16:47:42 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:47:49 - INFO - Req was made | /
+16.12.2024, 16:47:53 - INFO - Req was made | /
+16.12.2024, 16:47:56 - INFO - Req was made | /
+16.12.2024, 16:47:58 - INFO - Req was made | /
+16.12.2024, 16:48:00 - INFO - Req was made | /
+16.12.2024, 16:48:39 - INFO - server.js loaded...
+16.12.2024, 16:48:39 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:50:20 - INFO - server.js loaded...
+16.12.2024, 16:50:20 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:50:27 - INFO - server.js loaded...
+16.12.2024, 16:50:27 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:50:51 - INFO - Req was made | /
+16.12.2024, 16:50:53 - INFO - Req was made | /
+16.12.2024, 16:50:56 - INFO - Req was made | /
+16.12.2024, 16:50:59 - INFO - Req was made | /
+16.12.2024, 16:51:45 - INFO - Req was made | /
+16.12.2024, 16:51:50 - INFO - Req was made | /
+16.12.2024, 16:51:57 - INFO - Req was made | /
+16.12.2024, 16:52:15 - INFO - Req was made | /
+16.12.2024, 16:52:20 - INFO - Req was made | /
+16.12.2024, 16:52:30 - INFO - Req was made | /
+16.12.2024, 16:52:39 - INFO - Req was made | /
+16.12.2024, 16:52:41 - INFO - Req was made | /
+16.12.2024, 16:53:22 - INFO - Req was made | /
+16.12.2024, 16:53:28 - INFO - Req was made | /
+16.12.2024, 16:53:46 - INFO - Req was made | /
+16.12.2024, 16:54:03 - INFO - Req was made | /
+16.12.2024, 16:54:07 - INFO - Req was made | /
+16.12.2024, 16:54:09 - INFO - Req was made | /
+16.12.2024, 16:54:47 - INFO - Req was made | /
+16.12.2024, 16:54:50 - INFO - Req was made | /
+16.12.2024, 16:54:52 - INFO - Req was made | /
+16.12.2024, 16:54:54 - INFO - Req was made | /
+16.12.2024, 16:55:40 - INFO - server.js loaded...
+16.12.2024, 16:55:40 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:55:43 - INFO - Req was made | /
+16.12.2024, 16:56:02 - INFO - Req was made | /
+16.12.2024, 16:56:06 - INFO - Req was made | /
+16.12.2024, 16:56:30 - INFO - server.js loaded...
+16.12.2024, 16:56:30 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:56:34 - INFO - Req was made | /
+16.12.2024, 16:56:48 - INFO - Req was made | /
+16.12.2024, 16:56:51 - INFO - Req was made | /
+16.12.2024, 16:56:54 - INFO - Req was made | /
+16.12.2024, 16:58:06 - INFO - server.js loaded...
+16.12.2024, 16:58:06 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:58:24 - INFO - server.js loaded...
+16.12.2024, 16:58:24 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:58:33 - INFO - server.js loaded...
+16.12.2024, 16:58:33 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:58:39 - INFO - Req was made | /
+16.12.2024, 16:58:56 - INFO - Req was made | /
+16.12.2024, 16:59:12 - INFO - server.js loaded...
+16.12.2024, 16:59:12 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:59:18 - INFO - Req was made | /
+16.12.2024, 16:59:27 - INFO - Req was made | /
+16.12.2024, 16:59:44 - INFO - server.js loaded...
+16.12.2024, 16:59:44 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 16:59:47 - INFO - Req was made | /
+16.12.2024, 16:59:51 - INFO - Req was made | /
+16.12.2024, 17:00:08 - INFO - server.js loaded...
+16.12.2024, 17:00:08 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:00:16 - INFO - server.js loaded...
+16.12.2024, 17:00:16 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:00:34 - INFO - Req was made | /
+16.12.2024, 17:00:37 - INFO - Req was made | /
+16.12.2024, 17:00:40 - INFO - Req was made | /
+16.12.2024, 17:00:57 - INFO - server.js loaded...
+16.12.2024, 17:00:57 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:01:10 - INFO - Req was made | /
+16.12.2024, 17:01:12 - INFO - Req was made | /
+16.12.2024, 17:01:14 - INFO - Req was made | /
+16.12.2024, 17:01:17 - INFO - Req was made | /
+16.12.2024, 17:01:28 - INFO - Req was made | /
+16.12.2024, 17:01:39 - INFO - Req was made | /
+16.12.2024, 17:05:09 - INFO - server.js loaded...
+16.12.2024, 17:05:09 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:05:18 - INFO - Req was made | /
+16.12.2024, 17:05:54 - INFO - Req was made | /
+16.12.2024, 17:06:04 - INFO - Req was made | /
+16.12.2024, 17:07:02 - INFO - server.js loaded...
+16.12.2024, 17:07:02 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:07:05 - INFO - Req was made | /
+16.12.2024, 17:07:10 - INFO - Req was made | /
+16.12.2024, 17:07:16 - INFO - Req was made | /
+16.12.2024, 17:07:57 - INFO - server.js loaded...
+16.12.2024, 17:07:57 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:08:01 - INFO - Req was made | /
+16.12.2024, 17:08:05 - INFO - Req was made | /
+16.12.2024, 17:42:09 - INFO - Req was made | /
+16.12.2024, 17:42:12 - INFO - Req was made | /
+16.12.2024, 17:43:37 - INFO - server.js loaded...
+16.12.2024, 17:43:37 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:43:43 - INFO - server.js loaded...
+16.12.2024, 17:43:43 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:43:48 - INFO - server.js loaded...
+16.12.2024, 17:43:48 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:43:51 - INFO - Req was made | /
+16.12.2024, 17:43:55 - INFO - Req was made | /
+16.12.2024, 17:43:57 - INFO - Req was made | /
+16.12.2024, 17:44:01 - INFO - Req was made | /
+16.12.2024, 17:44:28 - INFO - Req was made | /
+16.12.2024, 17:44:34 - INFO - Req was made | /
+16.12.2024, 17:44:35 - INFO - Req was made | /
+16.12.2024, 17:45:39 - INFO - server.js loaded...
+16.12.2024, 17:45:39 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:46:22 - INFO - server.js loaded...
+16.12.2024, 17:46:22 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:47:44 - INFO - server.js loaded...
+16.12.2024, 17:47:44 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:47:58 - INFO - server.js loaded...
+16.12.2024, 17:47:59 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:53:03 - INFO - server.js loaded...
+16.12.2024, 17:53:03 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:53:07 - INFO - Req was made | /
+16.12.2024, 17:53:09 - ERROR - cannot find toys | MongoServerError: unknown operator: $match
+16.12.2024, 17:53:09 - ERROR - Failed to get toys | MongoServerError: unknown operator: $match
+16.12.2024, 17:55:47 - INFO - server.js loaded...
+16.12.2024, 17:55:47 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:55:48 - INFO - Req was made | /
+16.12.2024, 17:55:51 - INFO - Req was made | /
+16.12.2024, 17:55:53 - INFO - Req was made | /
+16.12.2024, 17:56:05 - INFO - Req was made | /
+16.12.2024, 17:56:06 - INFO - Req was made | /
+16.12.2024, 17:56:08 - INFO - Req was made | /
+16.12.2024, 17:56:09 - INFO - Req was made | /
+16.12.2024, 17:56:30 - INFO - server.js loaded...
+16.12.2024, 17:56:30 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 17:56:34 - INFO - Req was made | /
+16.12.2024, 17:56:35 - INFO - Req was made | /
+16.12.2024, 17:56:39 - INFO - Req was made | /
+16.12.2024, 17:56:41 - INFO - Req was made | /
+16.12.2024, 17:56:44 - INFO - Req was made | /
+16.12.2024, 17:56:45 - INFO - Req was made | /
+16.12.2024, 17:56:46 - INFO - Req was made | /
+16.12.2024, 17:56:48 - INFO - Req was made | /
+16.12.2024, 17:56:48 - INFO - Req was made | /
+16.12.2024, 17:56:50 - INFO - Req was made | /
+16.12.2024, 17:56:50 - INFO - Req was made | /
+16.12.2024, 17:56:51 - INFO - Req was made | /
