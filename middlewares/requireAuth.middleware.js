@@ -1,4 +1,4 @@
-import { loggerService } from '../services/logger.service.js'
+import { loggerService } from '../Services/logger.service.js'
 import { authService } from '../api/auth/auth.service.js'
 
 export async function requireAuth(req, res, next) {
