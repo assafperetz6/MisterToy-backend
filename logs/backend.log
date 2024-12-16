@@ -917,3 +917,18 @@
 16.12.2024, 19:03:43 - INFO - Req was made | /
 16.12.2024, 19:03:47 - INFO - Req was made | /
 16.12.2024, 19:03:49 - INFO - Req was made | /
+16.12.2024, 19:12:55 - INFO - server.js loaded...
+16.12.2024, 19:12:55 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 19:12:59 - INFO - Req was made | /
+16.12.2024, 19:12:59 - ERROR - Failed to get Mongo collection | TypeError: Cannot read properties of undefined (reading 'startsWith')
+16.12.2024, 19:12:59 - ERROR - cannot find toys | TypeError: Cannot read properties of undefined (reading 'startsWith')
+16.12.2024, 19:12:59 - ERROR - Cannot Connect to DB | TypeError: Cannot read properties of undefined (reading 'startsWith')
+16.12.2024, 19:12:59 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'startsWith')
+16.12.2024, 19:13:06 - INFO - server.js loaded...
+16.12.2024, 19:13:06 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 19:13:07 - INFO - Req was made | /
+16.12.2024, 19:13:09 - INFO - Req was made | /
+16.12.2024, 19:13:18 - INFO - server.js loaded...
+16.12.2024, 19:13:18 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 19:27:14 - INFO - server.js loaded...
+16.12.2024, 19:27:14 - INFO - Server listening on port http://127.0.0.1:3030/
