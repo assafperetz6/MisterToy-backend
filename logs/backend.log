@@ -911,3 +911,9 @@
 16.12.2024, 19:01:39 - INFO - Req was made | /
 16.12.2024, 19:01:39 - INFO - Req was made | /
 16.12.2024, 19:01:41 - INFO - Req was made | /
+16.12.2024, 19:03:39 - INFO - server.js loaded...
+16.12.2024, 19:03:39 - INFO - Server listening on port http://127.0.0.1:3030/
+16.12.2024, 19:03:41 - INFO - Req was made | /
+16.12.2024, 19:03:43 - INFO - Req was made | /
+16.12.2024, 19:03:47 - INFO - Req was made | /
+16.12.2024, 19:03:49 - INFO - Req was made | /
