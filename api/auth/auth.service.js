@@ -2,7 +2,7 @@ import Cryptr from 'cryptr'
 import bcrypt from 'bcrypt'
 
 import { userService } from '../user/user.service.js'
-import { loggerService } from '../../Services/logger.service.js'
+import { loggerService } from '../../services/logger.service.js'
 
 export const authService = {
     signup,

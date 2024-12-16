@@ -1,7 +1,7 @@
-import { dbService } from '../../Services/db.service.js'
+import { dbService } from '../../services/db.service.js'
 
 import { ObjectId } from 'mongodb'
-import { loggerService } from '../../Services/logger.service.js'
+import { loggerService } from '../../services/logger.service.js'
 
 export const userService = {
     query,
